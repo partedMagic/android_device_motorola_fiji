@@ -18,3 +18,6 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_fiji.mk
+  
+COMMON_LUNCH_CHOICES := \
+    omni_fiji-eng
