@@ -31,14 +31,14 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_system=true
 
 # Boot control HAL
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
 
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     bootctrl.mt6765
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.mt6765 \
     libgptutils \
     libz \
